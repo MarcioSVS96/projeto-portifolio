@@ -45,3 +45,12 @@ header{
         display: none;
 }
 }
+header.sticky{
+    background: $bg;
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+    
+    .navlist a{
+        color: $text;
+    }
+}
