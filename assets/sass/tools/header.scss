@@ -23,7 +23,7 @@ header{
         display: flex;
 
         a{
-            color: $second-bg;
+            color: $text;
             font-size: 17px;
             font-weight: 500;
             margin: 0 25px;
@@ -38,11 +38,10 @@ header{
     }
     #menu-icon{
         font-size: 35px;
-        color: $text;
+        color: $main;
         z-index: 10001;
         cursor: pointer;
         margin-left: 25px;
-        display: none;
 }
 }
 header.sticky{

@@ -63,7 +63,7 @@ header .navlist {
   display: flex;
 }
 header .navlist a {
-  color: #202020;
+  color: #fff;
   font-size: 17px;
   font-weight: 500;
   margin: 0 25px;
@@ -77,11 +77,10 @@ header .navlist a.active {
 }
 header #menu-icon {
   font-size: 35px;
-  color: #fff;
+  color: #ff4d05;
   z-index: 10001;
   cursor: pointer;
   margin-left: 25px;
-  display: none;
 }
 
 header.sticky {
@@ -461,6 +460,114 @@ section {
   font-size: 16px;
   color: #fff;
   background: #ff4d05;
+}
+
+@media (max-width: 1480px) {
+  header {
+    padding: 12px 2.5%;
+    transition: 0.8s;
+  }
+  header.sticky {
+    padding: 10px 2.5%;
+    transition: 0.8s;
+  }
+  section {
+    padding: 110px 3% 60px;
+  }
+  .end {
+    padding: 15px 3%;
+  }
+}
+@media (max-width: 1100px) {
+  /*
+  big: 4rem;
+  h2: 2.5rem;
+  p: 1mre;
+  */
+  .home-text h3 {
+    font-size: 2.5rem;
+  }
+  .home {
+    height: 87vh;
+  }
+}
+@media (max-width: 920px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .about-img {
+    text-align: center;
+    order: 2;
+  }
+  .about-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  #menu-icon {
+    display: flex;
+  }
+}
+@media (max-width: 880px) {
+  .navlist {
+    position: absolute;
+    top: -1000px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: #2a2a2a;
+    text-align: right;
+    transition: all 0.45s ease;
+  }
+  .navlist a {
+    display: block;
+    margin: 17px;
+    font-size: 20px;
+    transition: all 0.45s ease;
+    color: #fff;
+  }
+  .navlist a:hover {
+    color: #ff4d05;
+  }
+  .navlist a.active {
+    color: #fff;
+  }
+  .navlist.open {
+    top: 100%;
+  }
+}
+@media (min-width: 880px) {
+  #menu-icon {
+    display: none;
+  }
+  #menu-icon .navlist {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: #2a2a2a;
+    text-align: left;
+    transition: all 0.45s ease;
+  }
+  #menu-icon .navlist a {
+    display: block;
+    margin: 17px;
+    font-size: 20px;
+    transition: all 0.45s ease;
+    color: #fff;
+  }
+  #menu-icon .navlist a:hover {
+    color: #ff4d05;
+  }
+  #menu-icon .navlist a.active {
+    color: #fff;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
