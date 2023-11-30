@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrap .top {
+  background-color: salmon;
+  height: 49%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.wrap .top .mid {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.wrap .top .mid .bloco1 {
+  width: 48.5%;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.wrap .top .mid .bloco2 {
+  width: 32%;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.wrap .top .mid .bloco3 {
+  width: 24%;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.wrap .top .mid .bloco4 {
+  width: 65.5%;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.wrap .bot {
+  background-color: salmon;
+  height: 49%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style-11.css.map */

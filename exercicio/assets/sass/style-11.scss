@@ -1,0 +1,68 @@
+@import 'tools/reset.scss';
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top{
+        background-color: salmon;
+        height: 49%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .mid{
+            width: 80%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            .bloco1{
+                width: 48.5%;
+                height: 50px;
+                background-color: orangered;
+                border-radius: 10px;
+            }
+            .bloco2{
+                width: 32%;
+                height: 50px;
+                background-color: orangered;
+                border-radius: 10px;
+            }
+            .bloco3{
+                width: 24%;
+                height: 50px;
+                background-color: orangered;
+                border-radius: 10px;
+            }
+            .bloco4{
+                width: 65.5%;
+                height: 50px;
+                background-color: orangered;
+                border-radius: 10px;
+            }
+        }
+        
+    }
+    .bot{
+        background-color: salmon;
+        height: 49%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

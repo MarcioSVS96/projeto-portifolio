@@ -1,0 +1,58 @@
+@import 'tools/reset.scss';
+body{
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrap{
+        background-color: whitesmoke;
+        height: 95%;
+        width: 98%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        .figura{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 100px;
+            .circulo{ 
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: orangered;
+            }
+            p{
+                width: 45%;
+                margin-top: 40px;
+                line-height: 1.4;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        .figuras{
+            border-top: 10px solid orangered;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 180px;
+            a{
+                margin-left: 50px;
+                text-decoration: none;
+                color: black;
+            }
+            ul{
+                display: flex;
+                justify-content:space-around;
+                width: 30%;list-style-type: none;
+            }
+        }
+    }
+}
