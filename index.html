@@ -50,8 +50,7 @@
             </div>
             <h1>Márcio</h1>
             <h3>Dev <span>Front-end.</span></h3>
-            <p>Acredito que o design é a alma do desenvolvimento front-end e que a usabilidade é a chave para o sucesso.
-            </p>
+            <p>Acredito que o design é a alma do desenvolvimento front-end e que a usabilidade é a chave para o sucesso.</p>
             <div class="button">
                 <a  href="https://api.whatsapp.com/send?phone=5581997441023" target="_blank" class="btn">Saiba mais</a>
             </div>
@@ -188,11 +187,13 @@
         </div>
 
         <div class="contact-form">
-            <form action="">
-                <input type="name" placeholder="Seu nome..." required>
-                <input type="email" placeholder="Seu email..." required>
-                <input type="" placeholder="Seu número..." required>
-                <textarea name="" id="" cols="35" rows="10" placeholder="Deixe sua mensagem..." required></textarea>
+            <form action="https://formsubmit.co/marcio.santos.vs@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem, obrigado por entrar em contato.">
+                <input type="name" name="name" placeholder="NOME COMPLETO" required>
+                <input type="email" name="email" placeholder="EMAIL" required>
+                <input type="text" name="subject" placeholder="ASSUNTO" required>
+                <textarea name="message" id="" cols="35" rows="10" placeholder="MENSAGEM" required></textarea>
                 <input type="submit" value="Enviar mensagem" class="submit" required>
             </form>
         </div>
