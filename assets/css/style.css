@@ -52,12 +52,12 @@ header {
   padding: 22px 15%;
   border-bottom: 1px solid transparent;
   transition: all 0.45s ease;
+  max-height: 100px;
 }
 header .logo {
-  color: #fff;
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header .navlist {
   display: flex;
@@ -86,7 +86,8 @@ header #menu-icon {
 header.sticky {
   background: #2a2a2a;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
-  padding: 12px 15%;
+  padding: 0 15%;
+  max-height: 100px;
 }
 header.sticky .navlist a {
   color: #fff;
